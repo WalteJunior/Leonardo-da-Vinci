@@ -3,127 +3,84 @@
     padding:0;                      
     box-sizing: border-box;
     font-family:'roboto', sans-serif;
-    font-size:15px;
     color:white;
   }
+  body{
+    background-color: black;
+  }
   header{
-    background-color:#129799;
-  }
-  .header-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 3vh; 
-  }
-  li:hover{
-    cursor:pointer;
+    width: 100%;
+    height: 20vh;
+    border-bottom: solid 1px;
   }
   .titulo{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  h1{
-    font-size:30px;
-  }
-  header img{
-    width:400px;
-  }
-  .life{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .header-ul2{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 3vh; 
+    position: absolute;
+    top: 5.5vh;
+    left: 37vw;
   }
   main{
-    background-color:#FFA185;
-    display:flex;
-    flex-direction: column;
+    width: 100%;
+    height: 365vh;
+    border-bottom: solid 1px;
   }
-  h2{
-    margin-left:5vh;
+  .curiosity{
+    position: relative;
+    width: 50%;
+    top: 3vh;
+    left: 37vw;
   }
-  .subtit{
-    width:98vh;
-    padding-top:4vh;
+  section img{
+    width: 25vw;
   }
-  p{
-    width: 500px;
-    margin: 5vh;
-    color: black;
+  .content{
+    position: relative;
+    width: 15vw;
+    height: 300vh;
+    top: 10vh;
+    left: 37vw;
   }
-  main img{
-    width:350px;
-    height:54vh;
+  .polimata{
+    position: relative;
+    height: auto;
+    width: 35vw;
+    top: 1vh;
   }
-  .yoga-disc{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding: 0 3vh 0 3vh;
+  .arrested{
+    position: relative;
+    width: 35vw;
+    top: 6vh;
   }
-  .radio-girl{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  .christ{
+    position: relative;
+    top: 8vh;
+    width: 35vw;
   }
-  .yoga{
-    margin-right:2vw;
-    margin-bottom:4vw;
+  .hate{
+    position: relative;
+    width: 35vw;
+    top: 12vh;
   }
-  .disc{
-    margin-bottom:4vw;
-  }
-  .radio{
-    margin-right:2vw;
-  }
-  .more{
-    width:96vh;
-    display:flex;
-    justify-content:flex-end;
-    font-weight:bolder;
-  }
-  .more:hover{
-    cursor:pointer;
+  .passaway{
+    position: relative;
+    top: 18vh;
+    width: 35vw;
   }
   footer{
-    display:flex;
-    background: #129799;
+    position: relative;
   }
-  footer img:hover{
-    cursor:pointer;
+  .bio{
+    position: absolute;
+    left: 45vw;
   }
-  .social{
-    width:50vh;
-    padding: 6vh 0 9vh 12vh;
+  footer img{
+    display: inline-block;
+    position: absolute;
+    top: 7vh;
   }
-  .insta{
-    width:6vh;
-  }
-  .face{
-    width:6vh;
-    margin-left:2vh
-  }
-  .lnk{
-    width:6vh;
-    margin-left:2vh
-  }
-  .pint{
-    width:6vh;
-    margin-left:2vh
-  }
-  .footer-nav{
-    width: 100vh;
-  }
-  .footer-ul{
+  footer ul{
+    display: inline-block;
+    position: absolute;
+    top: 7vh;
+    left: 20vw;
     list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 8vh;
-    padding-left: 50vh;
   }
